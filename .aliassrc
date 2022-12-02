@@ -1,0 +1,28 @@
+# Navigation typo catchers
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias cd.='cd ..'
+alias cd..='cd ..'
+alias cd...='cd ../../'
+alias cd....='cd ../../../'
+alias cd.....='cd ../../../../'
+
+# NPM
+alias nrd="npm run dev"
+alias nrbd="npm run build:dev"
+alias nrb="npm run build"
+
+# GIT 
+alias gb='git branch'
+alias gc='git checkout'
+alias gcb='git checkout -b'
+alias gs='git status'
+alias ga='git add'
+alias gaa='git add .'
+alias gcm='git commit -m'
+alias gp='git push'
+alias gl='git pull'
+alias glo='git log --oneline --decorate'

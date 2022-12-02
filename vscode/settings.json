@@ -1,0 +1,76 @@
+{
+	// ! Theme
+	"workbench.colorTheme": "Tokyo Night",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.productIconTheme": "feather-vscode",
+	// ! Font Setting
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontSize": 18,
+	"editor.lineHeight": 24,
+	"editor.fontLigatures": true,
+	// ! Editor Setting
+	"editor.tabSize": 2,
+	"editor.useTabStops": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": true,
+	"editor.linkedEditing": true,
+	"editor.smoothScrolling": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.formatOnSave": false,
+	"editor.formatOnPaste": false,
+	"files.autoSave": "afterDelay",
+	// ! Explorer
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	// ! Vertical lines
+	"editor.rulers": [
+		70,
+		100
+	],
+	// ! Quote Setting
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+	// ! Terminal
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.cursorBlinking": true,
+	"workbench.sideBar.location": "right",
+	"workbench.colorCustomizations": {
+		"terminal.background": "#0C001F",
+		"terminal.foreground": "#BDBDBD",
+		"terminalCursor.background": "#BDBDBD",
+		"terminalCursor.foreground": "#BDBDBD",
+		"terminal.ansiBlack": "#222222",
+		"terminal.ansiBlue": "#80DEEA",
+		"terminal.ansiBrightBlack": "#757575",
+		"terminal.ansiBrightBlue": "#80DEEA",
+		"terminal.ansiBrightCyan": "#4DD0E1",
+		"terminal.ansiBrightGreen": "#26C6DA",
+		"terminal.ansiBrightMagenta": "#B3EBF2",
+		"terminal.ansiBrightRed": "#0097A7",
+		"terminal.ansiBrightWhite": "#EEEEEE",
+		"terminal.ansiBrightYellow": "#00BCD4",
+		"terminal.ansiCyan": "#D88881",
+		"terminal.ansiGreen": "#5AC3CC",
+		"terminal.ansiMagenta": "#81D1D8",
+		"terminal.ansiRed": "#81A5D8",
+		"terminal.ansiWhite": "#BDBDBD",
+		"terminal.ansiYellow": "#00BCD4"
+	},
+	// ! Language Formatter
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+}

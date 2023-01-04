@@ -1,0 +1,53 @@
+# Shortcuts
+alias reloadzrc='source ~/.zshrc'
+alias reloadaliases='source ~/.aliasesrc'
+alias editzrc='vim ~/.zshrc'
+alias editaliases='vim ~/.aliasesrc'
+
+# Navigation typo catchers
+alias .='cd ~'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias cd..='cd ..'
+alias cd...='cd ../../'
+alias cd....='cd ../../../'
+alias cd.....='cd ../../../../'
+
+# Output
+alias cls='clear'
+alias l='exa --all --long --git --header --icons --colour-scale --classify'
+alias mypublicip='curl ifconfig.me'
+alias mylocalip='hostname -I'
+
+# Nvim
+alias v='nvim'
+alias vi='nvim'
+alias vim='nvim'
+alias cat='batcat'
+
+# Directories
+alias cddwl='cd /mt/c/Users/christian.chiaveli/Downloads'
+alias cdigc='cd /mnt/c/Personal\ Projects/instagram-clone/igc'
+alias cduser='cd /mnt/c/Users/christian.chiaveli'
+alias cddwl='cd /mnt/c/Users/christian.chiaveli/Downloads'
+
+# NPM
+alias nrd="npm run dev"
+alias nrsd="npm run start:dev"
+alias nrb="npm run build"
+alias nrl="npm run lint"
+alias nrs="npm run start"
+alias nrt="npm run test"
+
+# Yarn
+alias yrd="yarn run dev"
+alias yrsd="yarn run start:dev"
+alias yrb="yarn run build"
+alias yrl="yarn run lint"
+alias yrs="yarn run start"
+alias yrt="yarn run test"
+alias yrtdd="yarn run tdd"
+alias yru="yarn run unit"
